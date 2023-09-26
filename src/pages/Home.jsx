@@ -1,5 +1,5 @@
 import { Box } from '@mui/material';
-import portrait from '../assets/Brendan.jpeg';
+import portrait from '../assets/Brendan2.jpg';
 
 function Home() {
   return (
