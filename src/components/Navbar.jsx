@@ -10,7 +10,7 @@ function Navbar() {
         <a className="btnHeader" href="/">
           About Me
         </a>
-        {/* <a className="btnHeader" href="/portfolio">
+        <a className="btnHeader" href="/portfolio">
           Portfolio
         </a>
         <a className="btnHeader" href="/resume">
@@ -18,7 +18,7 @@ function Navbar() {
         </a>
         <a className="btnHeader" href="/contactme">
           Contact Me
-        </a> */}
+        </a>
       </div>
     </header>
   );
