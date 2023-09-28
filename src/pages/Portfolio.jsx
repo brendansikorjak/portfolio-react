@@ -10,12 +10,13 @@ import {
 import nyrLogo from '../assets/new-york-rangers-logo.png';
 import nutritionLogo from '../assets/nutrition-logo.png';
 import weatherPic from '../assets/weather-app.png';
+import purrfectLogo from '../assets/purrfect-logo.svg';
 
 function Portfolio() {
   return (
     <Box>
       <h1> Portfolio </h1>
-      <Card sx={{ maxWidth: 400 }}>
+      <Card sx={{ maxWidth: 350 }}>
         <CardActionArea
           href="https://brendansikorjak.github.io/new-york-rangers-quiz/"
           target="_blank"
@@ -37,7 +38,7 @@ function Portfolio() {
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card sx={{ maxWidth: 400 }}>
+      <Card sx={{ maxWidth: 350 }}>
         <CardActionArea
           href="https://sergrojas29.github.io/Nutrition-Tracker/"
           target="_blank"
@@ -59,7 +60,7 @@ function Portfolio() {
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card sx={{ maxWidth: 400 }}>
+      <Card sx={{ maxWidth: 350 }}>
         <CardActionArea
           href="https://brendansikorjak.github.io/weather-app/"
           target="_blank"
@@ -77,6 +78,27 @@ function Portfolio() {
             <Typography variant="body2" color="text.secondary">
               Find out what the weather is in any city around the world this
               week!
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+      </Card>
+      <Card sx={{ maxWidth: 350 }}>
+        <CardActionArea
+          href="https://new-cat-cafe-748a9644a8c0.herokuapp.com/"
+          target="_blank"
+        >
+          <CardMedia
+            component="img"
+            height="250"
+            image={purrfectLogo}
+            alt="Purrfect Cat Cafe"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              Purrfect Cat Cafe
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              Visit our fictional Cat Cafe!
             </Typography>
           </CardContent>
         </CardActionArea>
