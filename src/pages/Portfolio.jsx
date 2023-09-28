@@ -9,6 +9,7 @@ import {
 } from '@mui/material';
 import nyrLogo from '../assets/new-york-rangers-logo.png';
 import nutritionLogo from '../assets/nutrition-logo.png';
+import weatherPic from '../assets/weather-app.png';
 
 function Portfolio() {
   return (
@@ -54,6 +55,28 @@ function Portfolio() {
             <Typography variant="body2" color="text.secondary">
               Track your daily and weekly calories with our Nutrition Tracker
               app!
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+      </Card>
+      <Card sx={{ maxWidth: 400 }}>
+        <CardActionArea
+          href="https://brendansikorjak.github.io/weather-app/"
+          target="_blank"
+        >
+          <CardMedia
+            component="img"
+            height="250"
+            image={weatherPic}
+            alt="Weather App"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              Weather App
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              Find out what the weather is in any city around the world this
+              week!
             </Typography>
           </CardContent>
         </CardActionArea>
