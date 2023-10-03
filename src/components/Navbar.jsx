@@ -1,24 +1,33 @@
-import logo from '../assets/react.svg';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
     <header>
-      <div id="logoContainer">
-        <img src={logo} alt={logo} id="logo"></img>
-      </div>
       <div id="btnContainer">
-        <a className="btnHeader" href="/">
-          About Me
-        </a>
-        <a className="btnHeader" href="/portfolio">
-          Portfolio
-        </a>
-        <a className="btnHeader" href="/resume">
-          Resume
-        </a>
-        <a className="btnHeader" href="/contactme">
-          Contact Me
-        </a>
+        <Link style={{ textDecoration: 'none' }} className="btnHeader" to="/">
+          HOME
+        </Link>
+        <Link
+          style={{ textDecoration: 'none' }}
+          className="btnHeader"
+          to="/portfolio"
+        >
+          PORTFOLIO
+        </Link>
+        <Link
+          style={{ textDecoration: 'none' }}
+          className="btnHeader"
+          to="/resume"
+        >
+          RESUME
+        </Link>
+        {/* <Link
+          style={{ textDecoration: 'none' }}
+          className="btnHeader"
+          to="/contactme"
+        >
+          CONTACT ME
+        </Link> */}
       </div>
     </header>
   );

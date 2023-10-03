@@ -3,10 +3,14 @@ import portrait from '../assets/Brendan2.jpg';
 
 function Home() {
   return (
-    <Box>
+    <Box id="homeContainer">
       <h1> Brendan Sikorjak </h1>
       <div>
-        <img src={portrait} id="portrait"></img>
+        <img
+          src={portrait}
+          id="portrait"
+          // style={{ width: 750, height: 500 }}
+        ></img>
       </div>
       <p>
         My name is Brendan Sikorjak and I am a huge fan of the New York Rangers.

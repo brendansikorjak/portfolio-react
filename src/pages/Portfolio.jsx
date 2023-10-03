@@ -15,6 +15,7 @@ import nutritionLogo from '../assets/nutrition-logo.png';
 import weatherPic from '../assets/weather-app.png';
 import purrfectLogo from '../assets/purrfect-logo.svg';
 import dictionaryPic from '../assets/dictionary.jpg';
+import tripBuddyLogo from '../assets/tripBuddySMALL.png';
 
 function Portfolio() {
   return (
@@ -33,7 +34,12 @@ function Portfolio() {
               alt="NYR Logo"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="div"
+                class="typography"
+              >
                 New York Rangers quiz
               </Typography>
               <Typography variant="body2" color="text.secondary">
@@ -165,6 +171,36 @@ function Portfolio() {
           <CardActions>
             <a
               href="https://github.com/brendansikorjak/dictionary"
+              target="_blank"
+            >
+              <GitHubIcon />
+            </a>
+          </CardActions>
+        </Card>
+        <Card sx={{ width: 325 }}>
+          <CardActionArea
+            href="https://immense-spire-99968-3fc73b4aa81c.herokuapp.com/"
+            target="_blank"
+          >
+            <CardMedia
+              component="img"
+              height="250"
+              image={tripBuddyLogo}
+              alt="Trip Buddy"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Trip Buddy
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Going on a trip? Use Trip Buddy to find interesting places to
+                visit!
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+          <CardActions>
+            <a
+              href="https://github.com/Sergrojas29/Group-Project-3"
               target="_blank"
             >
               <GitHubIcon />
