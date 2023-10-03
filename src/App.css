@@ -12,18 +12,30 @@ header {
   font-size: 20px;
 }
 
-/* .btnContainer {
-  flex-wrap: wrap;
-  flex-direction: column;
-} */
-
 .btnHeader {
   margin: 0.5rem;
   color: blue;
+  text-align: center;
 }
 
 .btnHeader:hover {
   color: red;
+}
+
+.btnContainer {
+  justify-content: center;
+}
+
+.portfolioContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+footer {
+  margin-top: 3rem;
+}
+.typography {
+  color: blue;
 }
 
 h1 {

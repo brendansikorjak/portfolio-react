@@ -21,7 +21,7 @@ function Portfolio() {
   return (
     <Box>
       <h1> Portfolio </h1>
-      <Grid container spacing={2}>
+      <Grid container spacing={2} className="portfolioContainer">
         <Card sx={{ width: 325 }}>
           <CardActionArea
             href="https://brendansikorjak.github.io/new-york-rangers-quiz/"
@@ -38,7 +38,7 @@ function Portfolio() {
                 gutterBottom
                 variant="h5"
                 component="div"
-                class="typography"
+                className="typography"
               >
                 New York Rangers quiz
               </Typography>
@@ -69,7 +69,12 @@ function Portfolio() {
               alt="Nutrition Tracker"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="div"
+                className="typography"
+              >
                 Nutrition Tracker
               </Typography>
               <Typography variant="body2" color="text.secondary">
@@ -99,7 +104,12 @@ function Portfolio() {
               alt="Weather App"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="div"
+                className="typography"
+              >
                 Weather App
               </Typography>
               <Typography variant="body2" color="text.secondary">
@@ -129,7 +139,12 @@ function Portfolio() {
               alt="Purrfect Cat Cafe"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="div"
+                className="typography"
+              >
                 Purrfect Cat Cafe
               </Typography>
               <Typography variant="body2" color="text.secondary">
@@ -158,7 +173,12 @@ function Portfolio() {
               alt="Dictionary App"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="div"
+                className="typography"
+              >
                 Dictionary App
               </Typography>
               <Typography variant="body2" color="text.secondary">
@@ -189,7 +209,12 @@ function Portfolio() {
               alt="Trip Buddy"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="div"
+                className="typography"
+              >
                 Trip Buddy
               </Typography>
               <Typography variant="body2" color="text.secondary">
