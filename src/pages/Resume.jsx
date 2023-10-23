@@ -4,7 +4,7 @@ function Resume() {
   return (
     <Box>
       <h1> Resume </h1>
-      <a className="btn" href="resume.pdf" download="resume">
+      <a className="btn" href="CS-resume.pdf" download="resume">
         Download my Resume
       </a>
     </Box>
