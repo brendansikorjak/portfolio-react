@@ -59,7 +59,7 @@ function Portfolio() {
         </Card>
         <Card sx={{ width: 325 }}>
           <CardActionArea
-            href="https://sergrojas29.github.io/Nutrition-Tracker/"
+            href="https://sergrojas29.github.io/GroupProject1/"
             target="_blank"
           >
             <CardMedia
