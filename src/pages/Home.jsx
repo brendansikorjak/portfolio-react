@@ -18,9 +18,11 @@ function Home() {
         and Czechia. Playing ice hockey, snowboarding and tennis are my hobbies
         and I was lucky enough to turn one of those sports into a profession.
         During the spring, summer, and fall I coach tennis to children and
-        senior citizens and have a blast doing it! I am currently pursuing my
-        career in computer science at a bootcamp provided by Rutgers University
-        to build my portfolio.
+        senior citizens and have a blast doing it! I am a front-end web
+        developer with a bachelors degree of science in computer science and a
+        minor in sociology from St. John's University. Recently I graduated from
+        a coding bootcamp at Rutgers University and earned a certificate in
+        full-stack development.
       </p>
     </Box>
   );
