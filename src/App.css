@@ -10,7 +10,10 @@ header {
   text-align: center;
   list-style-type: none;
   font-size: 20px;
-  background-color: white;
+  /* background-color: aqua; */
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .btnHeader {
@@ -25,6 +28,7 @@ header {
 
 .btnContainer {
   justify-content: center;
+  background-color: white;
 }
 
 .portfolioContainer {
@@ -32,9 +36,11 @@ header {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 footer {
   margin-top: 3rem;
 }
+
 .typography {
   color: blue;
 }
