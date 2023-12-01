@@ -22,7 +22,7 @@ function Portfolio() {
     <Box>
       <h1> Portfolio </h1>
       <Grid container spacing={2} className="portfolioContainer">
-        <Card sx={{ width: 325 }}>
+        <Card sx={{ width: 325 }} className="portfolioCard">
           <CardActionArea
             href="https://brendansikorjak.github.io/new-york-rangers-quiz/"
             target="_blank"
@@ -57,7 +57,7 @@ function Portfolio() {
             </a>
           </CardActions>
         </Card>
-        <Card sx={{ width: 325 }}>
+        <Card sx={{ width: 325 }} className="portfolioCard">
           <CardActionArea
             href="https://sergrojas29.github.io/GroupProject1/"
             target="_blank"
@@ -92,7 +92,7 @@ function Portfolio() {
             </a>
           </CardActions>
         </Card>
-        <Card sx={{ width: 325 }}>
+        <Card sx={{ width: 325 }} className="portfolioCard">
           <CardActionArea
             href="https://brendansikorjak.github.io/weather-app/"
             target="_blank"
@@ -127,7 +127,7 @@ function Portfolio() {
             </a>
           </CardActions>
         </Card>
-        <Card sx={{ width: 325 }}>
+        <Card sx={{ width: 325 }} className="portfolioCard">
           <CardActionArea
             href="https://new-cat-cafe-748a9644a8c0.herokuapp.com/"
             target="_blank"
@@ -161,7 +161,7 @@ function Portfolio() {
             </a>
           </CardActions>
         </Card>
-        <Card sx={{ width: 325 }}>
+        <Card sx={{ width: 325 }} className="portfolioCard">
           <CardActionArea
             href=" https://main.d24rgv9ivojyz8.amplifyapp.com/"
             target="_blank"
@@ -197,7 +197,7 @@ function Portfolio() {
             </a>
           </CardActions>
         </Card>
-        <Card sx={{ width: 325 }}>
+        <Card sx={{ width: 325 }} className="portfolioCard">
           <CardActionArea
             href="https://immense-spire-99968-3fc73b4aa81c.herokuapp.com/"
             target="_blank"

@@ -1,8 +1,9 @@
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: cornflowerblue;
 }
 
 header {
@@ -18,23 +19,28 @@ header {
 
 .btnHeader {
   margin: 0.5rem;
-  color: blue;
+  color: navy;
   text-align: center;
 }
 
 .btnHeader:hover {
-  color: red;
+  color: blue;
 }
 
 .btnContainer {
   justify-content: center;
-  background-color: white;
+  background-color: cornflowerblue;
 }
 
 .portfolioContainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
+}
+
+.portfolioCard {
+  margin: 20px;
+  margin-right: 0px;
 }
 
 footer {
@@ -50,7 +56,7 @@ h1 {
 }
 
 p {
-  color: blue;
+  color: navy;
 }
 
 .card {
