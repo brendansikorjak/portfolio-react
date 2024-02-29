@@ -3,7 +3,6 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: cornflowerblue;
 }
 
 header {
@@ -11,7 +10,6 @@ header {
   text-align: center;
   list-style-type: none;
   font-size: 20px;
-  /* background-color: aqua; */
   position: sticky;
   top: 0;
   z-index: 100;
@@ -29,7 +27,6 @@ header {
 
 .btnContainer {
   justify-content: center;
-  background-color: cornflowerblue;
 }
 
 .portfolioContainer {

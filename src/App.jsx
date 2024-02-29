@@ -7,6 +7,9 @@ import { CssBaseline } from '@mui/material';
 function App() {
   return (
     <>
+      <div>
+        <style>{'body { background-color: cornflowerblue ; }'}</style>
+      </div>
       <CssBaseline>
         {/* <BrowserRouter> */}
         <Navbar />
